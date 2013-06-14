@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsSoft.Database", "TsSoft.Database\TsSoft.Database.csproj", "{60BF69B4-64A3-485D-959D-BF9F205D1C39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsSoft.Database.SqlServer", "TsSoft.Database.SqlServer\TsSoft.Database.SqlServer.csproj", "{93A96281-F401-4D1C-B6EB-3BB2C1044E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{60BF69B4-64A3-485D-959D-BF9F205D1C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60BF69B4-64A3-485D-959D-BF9F205D1C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60BF69B4-64A3-485D-959D-BF9F205D1C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A96281-F401-4D1C-B6EB-3BB2C1044E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A96281-F401-4D1C-B6EB-3BB2C1044E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A96281-F401-4D1C-B6EB-3BB2C1044E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A96281-F401-4D1C-B6EB-3BB2C1044E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

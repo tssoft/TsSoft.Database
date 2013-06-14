@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60BF69B4-64A3-485D-959D-BF9F205D1C39}</ProjectGuid>
+    <ProjectGuid>{93A96281-F401-4D1C-B6EB-3BB2C1044E2E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TsSoft.Database</RootNamespace>
-    <AssemblyName>TsSoft.Database</AssemblyName>
+    <RootNamespace>TsSoft.Database.SqlServer</RootNamespace>
+    <AssemblyName>TsSoft.Database.SqlServer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -40,10 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrate\IMigrationManager.cs" />
-    <Compile Include="Migrate\ApplicableMigrationEnumerator.cs" />
-    <Compile Include="Migrate\MigrationRunner.cs" />
+    <Compile Include="Migrate\IMigrationRule.cs" />
+    <Compile Include="Migrate\MsSqlMigrationManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TsSoft.Database\TsSoft.Database.csproj">
+      <Project>{60bf69b4-64a3-485d-959d-bf9f205d1c39}</Project>
+      <Name>TsSoft.Database</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

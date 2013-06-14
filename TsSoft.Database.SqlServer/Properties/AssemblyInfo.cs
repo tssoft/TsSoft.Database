@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TsSoft.Database")]
+[assembly: AssemblyTitle("TsSoft.Database.SqlServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TS Soft")]
-[assembly: AssemblyProduct("TsSoft.Database")]
+[assembly: AssemblyProduct("TsSoft.Database.SqlServer")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("492f3cb5-ee5e-4819-a1f2-77314f5dbb46")]
+[assembly: Guid("d62392a5-2303-44e3-b2c5-8ebb780fbd40")]
 
 // Version information for an assembly consists of the following four values:
 //

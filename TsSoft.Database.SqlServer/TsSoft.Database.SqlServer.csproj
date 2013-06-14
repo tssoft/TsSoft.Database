@@ -40,8 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrate\Custom\CustomMigrationRuleFactory.cs" />
+    <Compile Include="Migrate\Custom\CustomMsSqlMigrationRule.cs" />
     <Compile Include="Migrate\IMigrationRule.cs" />
     <Compile Include="Migrate\MsSqlMigrationManager.cs" />
+    <Compile Include="Migrate\ScriptQueryEnumerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

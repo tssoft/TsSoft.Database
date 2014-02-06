@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TsSoft.Database.SqlServer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Classes for Microsoft Sql Server schema changes")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TS Soft")]
 [assembly: AssemblyProduct("TsSoft.Database.SqlServer")]
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyFileVersion("1.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

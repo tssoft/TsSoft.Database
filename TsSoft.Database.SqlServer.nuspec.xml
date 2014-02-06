@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TsSoft.Database.SqlServer</id>
+    <version>REPLACEME</version>
+    <authors>TS Soft</authors>
+    <owners>TS Soft</owners>
+    <licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
+    <projectUrl>https://github.com/tssoft/TsSoft.Database/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>REPLACEME</description>
+    <copyright>REPLACEME</copyright>
+	<dependencies>
+      <dependency id="TsSoft.Database" version="[1.0,2)" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="TsSoft.Database.dll" target="lib\net4" />
+  </files>
+</package>

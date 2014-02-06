@@ -15,6 +15,6 @@
     </dependencies>
   </metadata>
   <files>
-	<file src="TsSoft.Database.dll" target="lib\net4" />
+	<file src="TsSoft.Database.SqlServer.dll" target="lib\net4" />
   </files>
 </package>

@@ -2,13 +2,13 @@
 {
     using System.Collections.Generic;
     using System.Data.SqlClient;
-    using TsSoft.Database.Migrate;
+    using Database.Migrate;
 
     public abstract class MsSqlMigrationManager : IMigrationManager<IMigrationRule>
     {
-        private SqlConnection connection;
+        private readonly SqlConnection connection;
 
-        public MsSqlMigrationManager(SqlConnection connection)
+        protected MsSqlMigrationManager(SqlConnection connection)
         {
             this.connection = connection;
         }
@@ -23,6 +23,7 @@
                 while (queryEnumerator.MoveNext())
                 {
                     command.CommandText = queryEnumerator.Current;
+                    command.CommandTimeout = connection.ConnectionTimeout;
                     command.ExecuteNonQuery();
                 }
             }

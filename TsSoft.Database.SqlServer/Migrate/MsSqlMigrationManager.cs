@@ -15,7 +15,7 @@
 
         public abstract bool IsApplicable(IMigrationRule migrationRule);
 
-        public void Apply(IMigrationRule migrationRule)
+        public virtual void Apply(IMigrationRule migrationRule)
         {
             using (var command = connection.CreateCommand())
             {
